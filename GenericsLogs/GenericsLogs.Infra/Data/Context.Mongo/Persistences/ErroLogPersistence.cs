@@ -1,4 +1,8 @@
-﻿namespace GenericsLogs.Infra.Data.Context.Mongo.Persistences
+﻿using GenericsLogs.Domain.Interfaces.Persistences;
+using GenericsLogs.Domain.Models;
+using MongoDB.Driver;
+
+namespace GenericsLogs.Infra.Data.Context.Mongo.Persistences
 {
     public class ErroLogPersistence : IErroLogPersistence
     {

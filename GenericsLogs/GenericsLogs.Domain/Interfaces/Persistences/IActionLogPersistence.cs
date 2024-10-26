@@ -1,4 +1,6 @@
-﻿namespace GenericsLogs.Domain.Interfaces.Persistences
+﻿using GenericsLogs.Domain.Models;
+
+namespace GenericsLogs.Domain.Interfaces.Persistences
 {
     public interface IActionLogPersistence : IBasePersistence<Log, Guid>
     {

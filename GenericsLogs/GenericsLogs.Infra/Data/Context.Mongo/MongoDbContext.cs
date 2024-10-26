@@ -1,4 +1,8 @@
-﻿namespace GenericsLogs.Infra.Data.Context.Mongo
+﻿using GenericsLogs.Domain.Models;
+using Microsoft.Extensions.Options;
+using MongoDB.Driver;
+
+namespace GenericsLogs.Infra.Data.Context.Mongo
 {
     public class MongoDbContext
     {
