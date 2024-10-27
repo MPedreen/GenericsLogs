@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\GenericsLogs.Domain\GenericsLogs.Domain.csproj" />
+    <ProjectReference Include="..\GenericsLogs.Infra\GenericsLogs.Infra.csproj" />
+    <ProjectReference Include="..\GenericsLogs.Services\GenericsLogs.Service.csproj" />
   </ItemGroup>
 
 </Project>
