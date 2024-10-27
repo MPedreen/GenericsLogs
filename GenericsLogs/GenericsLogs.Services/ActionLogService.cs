@@ -17,7 +17,6 @@ namespace GenericsLogs.Service
         public async Task<Log> AddAsync(LogDTO logDTO)
         {
             Log log = new Log();
-            log.Id = logDTO.Id;
             log.Date = logDTO.Date;
             log.UserEmail = logDTO.UserEmail;
             log.Controller = logDTO.Controller;

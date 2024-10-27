@@ -2,7 +2,6 @@
 {
     public class LogDTO
     {
-        public Guid Id { get; set; }
         public DateTime Date { get; set; }
         public string UserEmail { get; set; }
         public string Controller { get; set; }

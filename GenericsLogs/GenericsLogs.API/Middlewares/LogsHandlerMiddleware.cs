@@ -49,7 +49,6 @@ namespace GenericsLogs.API.Middlewares
             response.StatusCode = ReturnStatusCodeError(error);
 
             LogDTO logDTO = new();
-            logDTO.Id = Guid.NewGuid();
             logDTO.Date = DateTime.Now;
             logDTO.UserEmail = userHttpContext?.Email;
             logDTO.App = "GenericsLogs";
@@ -90,7 +89,6 @@ namespace GenericsLogs.API.Middlewares
                 User userHttpContext = (User)context.Items["User"];
 
                 LogDTO logDTO = new();
-                logDTO.Id = Guid.NewGuid();
                 logDTO.Date = DateTime.Now;
                 logDTO.UserEmail = userHttpContext?.Email;
                 logDTO.App = "GenericsLogs";
